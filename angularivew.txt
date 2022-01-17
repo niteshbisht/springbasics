@@ -3,3 +3,12 @@ ngOnChanges(changes: SimpleChanges){
       this.data = changes['data'].currentValue;
     }
   }
+
+
+https://github.com/sudheerj/angular-interview-questions
+
+https://github.com/learning-zone/angular-interview-questions
+
+https://github.com/Yonet/Angular-Interview-Questions
+
+https://github.com/khan4019/angular-interview-questions
