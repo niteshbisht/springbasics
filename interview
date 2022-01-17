@@ -24,6 +24,27 @@ public class ListExamples {
 }
 
 
-[1,2,4] [0,1,9,7,8,2,12]
+src= [1,2,4] 
+target = [0,1,9,7,8,2,12]
 
 {1->1, 2->5 , 4 -> -1]
+
+static Map<Integer,Integer> test(int[] src, int[] target) {
+    Map<Integer, Integer> resMap= new HashMap<>();
+    for (int i: src) {
+      resMap.put(i, -1);
+    }
+    for (int t=0;t<target.length; t++) {
+      if(resMap.containsKey(target[t])) {
+        resMap.put(target[t], t);
+      }
+    }
+    return resMap;
+  }
+
+  public static void main(String[] args) {
+    int[] src = {1,2,4};
+    int[] target= {0,1,9,7,8,2,12};
+    Map<Integer, Integer> valMap = test(src, target);
+    System.out.println(valMap);
+  }
