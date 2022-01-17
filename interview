@@ -1,0 +1,29 @@
+
+["one", "two", "one"]
+{"one"-> 2, "two"->1}
+
+package app.algo.basic;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ListExamples {
+  public static void main(String[] args) {
+    String[] arr = {"one", "two", "one"};
+    Map<String, Integer> res= new HashMap<>();
+    for( String s: arr) {
+      Integer val = res.get(s);
+      if(val==null) {
+        res.put(s,1);
+      } else{
+        res.put(s, val+1);
+      }
+    }
+    System.out.println(res);
+  }
+}
+
+
+[1,2,4] [0,1,9,7,8,2,12]
+
+{1->1, 2->5 , 4 -> -1]
