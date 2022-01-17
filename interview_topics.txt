@@ -1,0 +1,13 @@
+Java:
+
+1) String String Builder String Buffer, Immutability , How to create Immutable classes in java.
+2) Abstract classes Inheritance Interfaces, Overloading overriding, Runtime Polymorphism Compiletime
+3) Threads ways to create threads, memory model object sharing, synchronized, static synchronized, monitor, Lock, Semaphore, Latches
+4) Executor Service, Fixed Threadpool, Cached Threadpool, Scheduled Threadpool, singleThreadpool, Threadfactory, Fork Join Pool
+5) Threadgroup, Threadlocal
+6) volatile keyword 
+7) Atomic Datatypes 
+8) Serialization Deserialization, Externalization 
+9) List Streams Api map filter flatmap collectors predicates supplier function Bifunction , 
+   Trifunction   
+10) Lambdas Streams sequential and Parallel
