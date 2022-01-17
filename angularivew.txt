@@ -1,0 +1,5 @@
+ngOnChanges(changes: SimpleChanges){
+    if(changes['data'].isFirstChange()) {
+      this.data = changes['data'].currentValue;
+    }
+  }
